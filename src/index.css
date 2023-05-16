@@ -7,7 +7,53 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #508bfc;
 }
+
+.container-fluid {
+  height: 100vh;
+}
+
+.card {
+  border-radius: 1rem;
+  max-width: 500px;
+}
+
+.card-body {
+  padding: 5rem !important;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 3rem;
+}
+
+.wrapperClass.mb-4.w-100 .form-control {
+  height: calc(1.5em + 1rem + 2px) !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 1.25rem !important;
+  line-height: 1.5;
+}
+
+.checkbox.mb-4 {
+  margin-bottom: 1rem !important;
+}
+
+.btn-lg {
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+}
+
+hr.my-4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
