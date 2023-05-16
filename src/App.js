@@ -1,6 +1,6 @@
 import Login from "./components/login/login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Pintro from "./pages/Pagesintro";
+
 
 
 
@@ -10,11 +10,7 @@ function App() {
       <header className="App-header">
         <Router>
           <Routes>
-            <Route path="/" element={<Login/>} />
-            <Route path="/intro" element={<Pintro/>} />
-
-              
-      
+            <Route path="/" element={<Login/>} />      
           </Routes>
         </Router>
        
