@@ -10,7 +10,7 @@ const Home = () => {
    <Gambr/>
    <br/>
    <hr/>
-   <h2>Most Wanted</h2>
+   <h2>Recommendation</h2>
    <Kartu/>
  </div>       
        

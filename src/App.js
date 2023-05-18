@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 function App() {
+  document.title = "WASSAP HOMIE";
   return (
     <div className="App">
       <header className="App-header">
