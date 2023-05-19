@@ -29,7 +29,7 @@ function Navi() {
         
         <Nav.Link href="#action1">Home</Nav.Link>
         <Nav.Link href="#action13">About</Nav.Link>
-        <Nav.Link href="#action3">Stoer</Nav.Link>
+        <Nav.Link href="#action3">Stor</Nav.Link>
         <Nav.Link href="#action2">Login</Nav.Link>
        
        
