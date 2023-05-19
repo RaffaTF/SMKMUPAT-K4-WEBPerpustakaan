@@ -1,52 +1,139 @@
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+
 
 
 function Kartu() {
   return (
-    <div className="card-container" style={{ display: 'flex' , marginLeft: '100px'}}>
-      <Card style={{ width: '18rem', marginRight: '100px' }}>
-        <Card.Img
+     <Container>
+      <Row>
+        <Col>
+          <Card>
+            <Card.Img
           variant="top"
           src="https://deepublishstore.com/wp-content/uploads/2021/02/Matematika-Diskret-Teknik_Seng-Hansun-Convert-2-scaled.jpg"
-          style={{ width: 'auto', height: '300px' }}
-        />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: '18rem', marginRight: '100px' }}>
-        <Card.Img
+          style={{ width: '354px', height: '350px' }} />
+            <Card.Body>
+              <Card.Title>Education</Card.Title>
+              <Card.Text>Matematika,Bahasa,DLL</Card.Text>
+              <Button className='bg-primary '>lebih</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+        <Card>
+            <Card.Img
           variant="top"
-          src="https://www.rajagrafindo.co.id/wp-content/uploads/2017/08/Bahasa-Indonesia-Untuk-Perguruan-Tinggi.jpg"
-          style={{ width: 'auto', height: '300px' }}
-        />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: '18rem', marginRight: '100px' }}>
-        <Card.Img
+          src="https://m.media-amazon.com/images/I/51e8gpQV4WL.jpg"
+          style={{ width: '354px', height: '350px' }} />
+            <Card.Body>
+              <Card.Title>War</Card.Title>
+              <Card.Text>The Last War</Card.Text>
+              <Button className='bg-primary '>lebih</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+        <Card>
+            <Card.Img
           variant="top"
-          src="https://i.pinimg.com/originals/9a/24/d4/9a24d48eafa6ba090c13cb91bcda5323.jpg"
-          style={{ width: 'auto', height: '300px' }}
-        />
-        <Card.Body>
-          <Card.Title>Susah Sekali</Card.Title>
-          <Card.Text>menambahkan 3 card di bawah</Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
-      
-    </div>
+          src="https://m.media-amazon.com/images/I/71K2ywyk16L.jpg"
+          style={{ width: '354px', height: '350px' }} />
+            <Card.Body>
+              <Card.Title>Science Fiction</Card.Title>
+              <Card.Text>Red Mars</Card.Text>
+              <Button className='bg-primary '>lebih</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+      <br/>
+      <Row>
+        <Col>
+        <Card>
+            <Card.Img
+          variant="top"
+          src="https://kbimages1-a.akamaihd.net/08bb082e-e9d4-492e-b2ae-ee04233dbc33/1200/1200/False/treasure-island-450.jpg"
+          style={{ width: '354px', height: '350px' }} />
+            <Card.Body>
+              <Card.Title>Advanture</Card.Title>
+              <Card.Text>Treasure Island</Card.Text>
+              <Button className='bg-primary '>lebih</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+        <Card>
+            <Card.Img
+          variant="top"
+          src="https://upload.wikimedia.org/wikipedia/en/b/b9/Bird_Box_2014_book_cover.jpg"
+          style={{ width: '354px', height: '350px' }} />
+            <Card.Body>
+              <Card.Title>Horror</Card.Title>
+              <Card.Text>Bird Box</Card.Text>
+              <Button className='bg-primary '>lebih</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+        <Card>
+            <Card.Img
+          variant="top"
+          src="https://m.media-amazon.com/images/I/81m1s4wIPML.jpg"
+          style={{ width: '354px', height: '350px' }} />
+            <Card.Body>
+              <Card.Title>Fantasy</Card.Title>
+              <Card.Text>Harry Potter</Card.Text>
+              <Button className='bg-primary '>lebih</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>     
+      <br/>
+      <hr className="bg-dark" />
+      <h3>Popular</h3>
+      <Row>
+        <Col>
+        <Card>
+            <Card.Img
+          variant="top"
+          src="https://m.media-amazon.com/images/I/81+jKW2zSEL.jpg"
+          style={{ width: '354px', height: '450px' }} />
+            <Card.Body>
+              <Card.Title>The Spartans: An Epic History </Card.Title>
+              <Card.Text>Oleh: Paul Anthony Cartledge</Card.Text>
+              <Button className='bg-primary '>lebih lengkap</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+        <Card>
+            <Card.Img
+          variant="top"
+          src="https://togamas.com/css/images/items/potrait/12445964_1104015149671307_1197091791_n_1036.jpg"
+          style={{ width: '354px', height: '450px' }} />
+            <Card.Body>
+              <Card.Title>The Da Vinci Code</Card.Title>
+              <Card.Text>Oleh: Dan Brown</Card.Text>
+              <Button className='bg-primary '>lebih</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+        <Card>
+            <Card.Img
+          variant="top"
+          src="https://m.media-amazon.com/images/I/71jLBXtWJWL._AC_UF1000,1000_QL80_.jpg"
+          style={{ width: '354px', height: '450px' }} />
+            <Card.Body>
+              <Card.Title>The Lord of the Rings </Card.Title>
+              <Card.Text>Oleh: J.R.R. Tolkien</Card.Text>
+              <Button className='bg-primary '>lebih</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row> 
+    </Container>
     
   
     

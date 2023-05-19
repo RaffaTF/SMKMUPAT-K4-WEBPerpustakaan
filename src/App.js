@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 function App() {
+  document.title = "WASSAP HOMIE";
   return (
     <div className="App">
       <header className="App-header">
@@ -15,7 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Login/>} /> 
             <Route path="/store" element={<Store/>} /> 
-            <Route path="/register" element={<Register/>}/> 
+            <Route path="/register" element={<Register/>}/>  
             <Route path="/home" element={<Home/>}/> 
 
           </Routes>

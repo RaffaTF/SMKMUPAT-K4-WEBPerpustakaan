@@ -29,7 +29,6 @@ function Gambr() {
           alt="Second slide"
           style={{ width: '500px', height: '400px' }}
         />
-
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -44,9 +43,19 @@ function Gambr() {
         />
         <Carousel.Caption>
           <h3>Memberi Dislike</h3>
-          <p>
-            Yo ndak tau tanya yang kok tanya sayaa
-          </p>
+          <p>Jokowi Tidak Suka</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgBfLj2zFIhrRjQ8IawAGY1Q5fTwfpFXMsddqCKDmCPa4GR0r6U6IKzXuNI9vbHPs1hdCOvyWBRUE1T4U03eL3ZrThHE4IgF5Uv0y38S-N2cSe5VBq53w6hw6lBXy2nL1_mLl_BcRvX0tgTokbn_AV8o4AXRBXcanRxfCZO_1eCpfXcvJiluKKUIdxNg/s1191/791s.jpg"
+          alt="Third slide"
+          style={{ width: '500px', height: '400px' }}
+        />
+        <Carousel.Caption>
+          <h3>BACA DULU GAK SIH😂</h3>
+          <p>mamah aku pintar membaca</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

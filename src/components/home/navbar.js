@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import Nlogo from '../home/Nlogo.jpg';
 
 
 function Navi() {
@@ -13,7 +14,7 @@ function Navi() {
     <Navbar bg="light" expand="lg">
   <Col xs={6} md={4}>
   <a href="a"  rel="noopener noreferrer">
-    <Image src="https://deepublishstore.com/wp-content/uploads/2021/02/Matematika-Diskret-Teknik_Seng-Hansun-Convert-2-scaled.jpg" rounded style={{ width: '3rem', height: '3rem' }} />
+    <Image src={Nlogo} rounded style={{ width: '4rem', height: '4rem' }} />
   </a>
 </Col>
 
