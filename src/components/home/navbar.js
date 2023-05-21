@@ -27,7 +27,7 @@ function Navi() {
         navbarScroll
       >
         
-        <Nav.Link href="#/">Home</Nav.Link>
+        <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="#action13">About</Nav.Link>
         <Nav.Link href="#action3">Store</Nav.Link>
         <Nav.Link href="/login">Login</Nav.Link>
