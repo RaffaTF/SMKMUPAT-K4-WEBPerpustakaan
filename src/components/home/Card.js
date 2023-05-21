@@ -1,9 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 
 
 function Kartu() {
+  const b1 = useNavigate()
   return (
      <Container>
       <Row>
@@ -16,7 +18,7 @@ function Kartu() {
             <Card.Body>
               <Card.Title>Education</Card.Title>
               <Card.Text>Matematika,Bahasa,DLL</Card.Text>
-              <Button className='bg-primary '>lebih</Button>
+              <Button onClick={() => b1 ('/edukasi')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -29,7 +31,7 @@ function Kartu() {
             <Card.Body>
               <Card.Title>War</Card.Title>
               <Card.Text>The Last War</Card.Text>
-              <Button className='bg-primary '>lebih</Button>
+              <Button variant="primary" className=' hover-button '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>

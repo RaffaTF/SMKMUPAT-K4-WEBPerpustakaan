@@ -5,14 +5,16 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
+      <>
    <Navi/>
+   <div>
    <Gambr/>
    <br/>
    <hr/>
    <h2>Recommendation</h2>
    <Kartu/>
- </div>       
+    </div>
+    </>    
        
     )
 }

@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Nlogo from '../home/Nlogo.jpg';
+import Nlogo from '../../img/Nlogo.jpg';
 
 
 function Navi() {
@@ -28,7 +28,7 @@ function Navi() {
       >
         
         <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="#action13">About</Nav.Link>
+        <Nav.Link href="/about">About</Nav.Link>
         <Nav.Link href="#action3">Store</Nav.Link>
         <Nav.Link href="/login">Login</Nav.Link>
        

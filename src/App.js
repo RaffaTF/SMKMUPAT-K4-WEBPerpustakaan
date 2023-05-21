@@ -1,14 +1,17 @@
-import Login from "./components/login/login";
-import Register from "./components/login/register";
-import Store from "./components/store/store";
-import Home from "./pages/pageshome";
+import AboutUs from "./pages/about";
+import Login from "./pages/login/login";
+import Register from "./pages/login/register";
+import Store from "./pages/store";
+import Home from "./pages/home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Edu from "./pages/Edukasi";
 
 
 
 
 function App() {
   document.title = "E-Libro";
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -18,16 +21,12 @@ function App() {
             <Route path="/store" element={<Store/>} /> 
             <Route path="/register" element={<Register/>}/>  
             <Route path="/" element={<Home/>}/> 
-
+            <Route path="/about" element={<AboutUs/>}/> 
+            <Route path="/edukasi" element={<Edu/>}/> 
           </Routes>
         </Router>
        
       </header>
-      <footer className="bg-black">
-      <div className="container">
-        <p className="text-white content-center">&copy;2022-{new Date().getFullYear()} E-Libro. All rights reserved.</p>
-      </div>  j 
-    </footer>
     </div>
   );
 }

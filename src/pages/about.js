@@ -1,7 +1,10 @@
 import React from 'react';
+import Navi from '../components/home/navbar';
 
 const AboutUs = () => {
   return (
+    <>
+    <Navi/>
     <div>
       <h1>Tentang Kami</h1>
       <p>Selamat datang di sistem informasi perpustakaan kami!</p>
@@ -11,9 +14,10 @@ const AboutUs = () => {
       <p>Jangan ragu untuk menghubungi tim dukungan kami jika Anda memiliki pertanyaan atau mengalami masalah saat menggunakan sistem kami. Kami di sini untuk membantu dan memastikan kepuasan Anda.</p>
       <p>Terima kasih telah memilih sistem informasi perpustakaan kami. Selamat membaca!</p>
       <footer style={{ backgroundColor: 'black', color: 'white', position: 'fixed', bottom: '0', left: '0', width: '100%', padding: '20px', textAlign: 'center' }}>
-        <p>Hak Cipta © 2023 Sistem Informasi Perpustakaan</p>
+        <p>&copy;2022-{new Date().getFullYear()} E-Libro. Sistem Informasi Perpustakaan</p>
       </footer>
     </div>
+    </>
   );
 };
 
