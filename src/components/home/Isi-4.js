@@ -4,17 +4,17 @@ import { useNavigate } from 'react-router-dom';
 import { Pagination } from 'antd';
 
 
-const No1 = () => {
+const No4 = () => {
   const b1 = useNavigate()
   
   return (
     <div className='bg-dark'>
        <img 
-        src='https://berkas.lektur.id/kbbi-tesaurus/edukasi.jpg'
+        src='https://images2.alphacoders.com/117/1176021.jpg'
         alt='Horor'
         style={{width: '1300px' , height:'300px'}}
         />
-        <h2 className='text-white'>Edukasi</h2>
+        <h2 className='text-white'>Advanture</h2>
         <hr className='warning'/>
      <Container>
        
@@ -237,4 +237,4 @@ const No1 = () => {
   );
 }
 
-export default No1;
+export default No4;

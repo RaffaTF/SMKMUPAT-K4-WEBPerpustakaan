@@ -31,7 +31,7 @@ function Kartu() {
             <Card.Body>
               <Card.Title>War</Card.Title>
               <Card.Text>The Last War</Card.Text>
-              <Button variant="primary" className=' hover-button '>lebih</Button>
+              <Button onClick={() => b1 ('/war')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -44,7 +44,7 @@ function Kartu() {
             <Card.Body>
               <Card.Title>Science Fiction</Card.Title>
               <Card.Text>Red Mars</Card.Text>
-              <Button className='bg-primary '>lebih</Button>
+              <Button onClick={() => b1 ('/sf')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -60,7 +60,7 @@ function Kartu() {
             <Card.Body>
               <Card.Title>Advanture</Card.Title>
               <Card.Text>Treasure Island</Card.Text>
-              <Button className='bg-primary '>lebih</Button>
+              <Button onClick={() => b1 ('/advanture')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -73,7 +73,7 @@ function Kartu() {
             <Card.Body>
               <Card.Title>Horror</Card.Title>
               <Card.Text>Bird Box</Card.Text>
-              <Button className='bg-primary '>lebih</Button>
+              <Button onClick={() => b1 ('/horor')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -86,7 +86,7 @@ function Kartu() {
             <Card.Body>
               <Card.Title>Fantasy</Card.Title>
               <Card.Text>Harry Potter</Card.Text>
-              <Button className='bg-primary '>lebih</Button>
+              <Button onClick={() => b1 ('/fantasy')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>

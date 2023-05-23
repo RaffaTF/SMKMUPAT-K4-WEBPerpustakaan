@@ -4,17 +4,17 @@ import { useNavigate } from 'react-router-dom';
 import { Pagination } from 'antd';
 
 
-const No1 = () => {
-  const b1 = useNavigate()
+const No2 = () => {
+  const b2 = useNavigate()
   
   return (
     <div className='bg-dark'>
        <img 
-        src='https://berkas.lektur.id/kbbi-tesaurus/edukasi.jpg'
+        src='https://cdn01.x-plarium.com/browser/content/plarium-play/games/VKN/game_header.webp'
         alt='Horor'
-        style={{width: '1300px' , height:'300px'}}
+        style={{width: '1300px' , height:'350px'}}
         />
-        <h2 className='text-white'>Edukasi</h2>
+        <h2 className='text-white'>War</h2>
         <hr className='warning'/>
      <Container>
        
@@ -28,7 +28,7 @@ const No1 = () => {
             <Card.Body>
               <Card.Title>Education</Card.Title>
               <Card.Text>Matematika,Bahasa,DLL</Card.Text>
-              <Button onClick={() => b1 ('/edukasi')} className='bg-primary '>lebih</Button>
+              <Button onClick={() => b2 ('/edukasi')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -237,4 +237,4 @@ const No1 = () => {
   );
 }
 
-export default No1;
+export default No2;
