@@ -9,12 +9,12 @@ const No6 = () => {
   
   return (
     <div className='bg-dark'>
-        <h2 className='text-white'>Fantasy</h2>
         <img 
-        src='https://assets-a1.kompasiana.com/items/album/2020/11/02/images-jpeg-128-5fa038edd541df2705563ea2.jpg'
+        src='https://cdn.medcom.id/images/content/2021/05/05/1273735/72qwUkYVOx.jpg'
         alt='Horor'
-        style={{width: '1300px' , height:'300px'}}
+        style={{width: '100%' , height:'300px'}}
         />
+        <h2 className='text-white'>Fantasy</h2>
         <hr className='warning'/>
      <Container>
        

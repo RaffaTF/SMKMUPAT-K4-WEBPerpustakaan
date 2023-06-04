@@ -12,7 +12,7 @@ const No1 = () => {
        <img 
         src='https://berkas.lektur.id/kbbi-tesaurus/edukasi.jpg'
         alt='Horor'
-        style={{width: '1300px' , height:'300px'}}
+        style={{width: '100%' , height:'300px'}}
         />
         <h2 className='text-white'>Edukasi</h2>
         <hr className='warning'/>

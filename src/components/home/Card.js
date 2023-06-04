@@ -112,7 +112,7 @@ function Kartu() {
         <Card>
             <Card.Img
           variant="top"
-          src="https://togamas.com/css/images/items/potrait/12445964_1104015149671307_1197091791_n_1036.jpg"
+          src="https://m.media-amazon.com/images/I/91Q5dCjc2KL._AC_UF1000,1000_QL80_.jpg"
           style={{ width: '354px', height: '450px' }} />
             <Card.Body>
               <Card.Title>The Da Vinci Code</Card.Title>

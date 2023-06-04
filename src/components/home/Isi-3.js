@@ -12,7 +12,7 @@ const No3 = () => {
        <img 
         src='https://img.freepik.com/free-photo/science-fiction-scene_456031-99.jpg?w=2000'
         alt='Horor'
-        style={{width: '1300px' , height:'300px'}}
+        style={{width: '100%' , height:'300px'}}
         />
         <h2 className='text-white'>Science Fiction</h2>
         <hr className='warning'/>

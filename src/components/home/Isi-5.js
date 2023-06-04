@@ -10,9 +10,9 @@ const No5 = () => {
   return (
     <div className='bg-dark'>
        <img 
-        src='https://assets-a1.kompasiana.com/items/album/2020/11/02/images-jpeg-128-5fa038edd541df2705563ea2.jpg'
+        src='https://wallpaperaccess.com/full/146950.jpg'
         alt='Horor'
-        style={{width: '1300px' , height:'300px'}}
+        style={{width: '100%' , height:'300px'}}
         />
         <h2 className='text-white'>Horor</h2>
 

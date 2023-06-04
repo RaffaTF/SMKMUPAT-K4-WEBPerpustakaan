@@ -12,7 +12,7 @@ const No4 = () => {
        <img 
         src='https://images2.alphacoders.com/117/1176021.jpg'
         alt='Horor'
-        style={{width: '1300px' , height:'300px'}}
+        style={{width: '100%' , height:'300px'}}
         />
         <h2 className='text-white'>Advanture</h2>
         <hr className='warning'/>
