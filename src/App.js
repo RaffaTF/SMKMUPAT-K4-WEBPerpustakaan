@@ -35,7 +35,6 @@ function App() {
             <Route path="/fantasy" element={<Fan/>}/> 
           </Routes>
         </Router>
-       
       </header>
     </div>
   );
