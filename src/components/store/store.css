@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(234, 236, 236);
+}
+Img{
+    width: 354px;
+    height: 350px;
+}
+.Card{
+    background-color: #851414;
+    width: 354px;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width:70px;
+    height: 40px;
+    border-radius: 7px;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.Button:hover{
+    color: aliceblue;
+    background-color: rgb(7, 61, 155);
+}
+
+.Button:active {
+    transform: scale(0.9);
+  }
+  #button1,
+  #button2,
+  #button3,
+  #button4 {
+    position: fixed;
+    z-index: 9999; /* Nilai z-index yang tinggi */
+  }
+  
+  #button1 {
+    top: 20px; /* Jarak dari atas */
+    left: 10px; /* Jarak dari kiri */
+    width:60px;
+    height: 40px;
+    color: aliceblue;
+    background-color: #045ef9;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  #button2 {
+    top: 70px; /* Jarak dari atas */
+    left:  10px; /* Jarak dari kanan */
+    width:60px;
+    height: 40px;
+    color: aliceblue;
+    background-color: #045ef9;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  #button3 {
+    top: 120px; /* Jarak dari bawah */
+    left: 10px; /* Jarak dari kiri */
+    width:60px;
+    height: 40px;
+    color: aliceblue;
+    background-color: #045ef9;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid #0441aa; /* Ketebalan dan jenis garis */
+ 
+  }
+  
+  #button4 {
+    top: 170px; /* Jarak dari bawah */
+    left: 10px; /* Jarak dari kanan */
+    width:60px;
+    height: 40px;
+    color: aliceblue;
+    background-color: #045ef9;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }

@@ -1,0 +1,234 @@
+.page-number {
+    border: 1px solid black; /* Jenis dan ketebalan garis */
+    border-radius: 50%; /* Membuat garis bundar dengan menggunakan 50% nilai border-radius */
+    width: 20px; /* Lebar nomor halaman */
+    height: 20px; /* Tinggi nomor halaman */
+    text-align: center;
+    align-items: center; /* Pusatkan teks di dalam nomor halaman */
+    line-height: 20px; /* Sesuaikan line-height dengan tinggi nomor halaman untuk memastikan teks berada di tengah */
+  }
+
+.button{
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    width:60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.button:hover{
+    color: aliceblue;
+    background-color: #094cc0;
+}
+.button:active{
+    transform: scale(0.9);
+}
+.button1{
+    position: fixed;
+    top: 30px;
+    left: 10px;
+    width:60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.button1:focus{
+    background-color: rgb(255, 255, 255);
+    color: #045ef9;
+}
+.button2{
+    position: fixed;
+    top: 55px;
+    left: 10px;
+    width:60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.button2:focus{
+    background-color: rgb(255, 255, 255);
+    color: #045ef9;
+}
+.button3{
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    width:60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.button3:focus{
+    background-color: rgb(255, 255, 255);
+    color: #045ef9;
+}
+.button4{
+    position: fixed;
+    top: 105px;
+    left: 10px;
+    width:60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.button4:focus{
+    background-color: rgb(255, 255, 255);
+    color: #045ef9;
+}
+.button5{
+    position: fixed;
+    top: 130px;
+    left: 10px;
+    width:60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.button5:focus{
+    background-color: rgb(255, 255, 255);
+    color: #045ef9;
+}
+.button6{
+    position: fixed;
+    top: 155px;
+    left: 10px;
+    width:60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.button6:focus{
+    background-color: rgb(255, 255, 255);
+    color: #045ef9;
+}
+.button7{
+    position: fixed;
+    top: 180px;
+    left: 10px;
+    width:60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.button7:focus{
+    background-color: rgb(255, 255, 255);
+    color: #045ef9;
+}
+.button8{
+    position: fixed;
+    top: 205px;
+    left: 10px;
+    width:60px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.button8:focus{
+    background-color: rgb(255, 255, 255);
+    color: #045ef9;
+}
+.button9{
+    position: fixed;
+    top: 230px;
+    left: 10px;
+    width:60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.button9:focus{
+    background-color: rgb(255, 255, 255);
+    color: #045ef9;
+}
+.button10{
+    position: fixed;
+    top: 255px;
+    left: 10px;
+    width:60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.button10:focus{
+    background-color: rgb(255, 255, 255);
+    color: #045ef9;
+}
+.button11{
+    position: fixed;
+    top: 280px;
+    left: 10px;
+    width:60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.button11:focus{
+    background-color: rgb(255, 255, 255);
+    color: #045ef9;
+}
+.button12{
+    position: fixed;
+    top: 305px;
+    left: 10px;
+    width:60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #045ef9;
+}
+.button12:focus{
+    background-color: rgb(255, 255, 255);
+    color: #045ef9;
+}
