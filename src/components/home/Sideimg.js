@@ -18,8 +18,8 @@ function Gambr() {
           style={{ width: '500px', height: '400px' }}
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>K Hajar Dewantara</h3>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
