@@ -43,7 +43,7 @@ function Gambr() {
         />
         <Carousel.Caption>
           <h3>Memberi Dislike</h3>
-          <p>Jokowi Tidak Suka</p>
+          <p>Jokowi Tidak Sukaa</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

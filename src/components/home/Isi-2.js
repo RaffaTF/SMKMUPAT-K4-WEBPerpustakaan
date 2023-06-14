@@ -15,9 +15,8 @@ const No2 = () => {
         style={{width: '100%' , height:'350px'}}
         />
         <h2 className='text-white'>War</h2>
-        <hr className='warning'/>
+        <br/>
      <Container>
-       
       <Row>
         <Col>
           <Card>
