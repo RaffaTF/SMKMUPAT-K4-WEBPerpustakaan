@@ -16,6 +16,11 @@ import HalamanSatu from './components/bacaan/h1';
 import HalamanDua from './components/bacaan/h2';
 import HalamanTiga from './components/bacaan/h3';
 import HalamanEmpat from './components/bacaan/h4';
+import HalamanLima from './components/bacaan/h5';
+import HalamanEnam from './components/bacaan/h6';
+import HalamanTu from './components/bacaan/h7';
+import HalamanPan from './components/bacaan/h8';
+
 
 function App() {
   document.title = 'E-Libro';
@@ -41,6 +46,10 @@ function App() {
             <Route path="/h2" element={<HalamanDua />} />
             <Route path="/h3" element={<HalamanTiga />} />
             <Route path="/h4" element={<HalamanEmpat />} />
+            <Route path="/h5" element={<HalamanLima />} />
+            <Route path="/h6" element={<HalamanEnam />} />
+            <Route path="/h7" element={<HalamanTu />} />
+            <Route path="/h8" element={<HalamanPan />} />
           </Routes>
         </Router>
       </header>

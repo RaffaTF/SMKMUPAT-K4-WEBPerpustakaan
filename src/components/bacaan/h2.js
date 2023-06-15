@@ -9,20 +9,20 @@ function HalamanDua() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <Card className="custom-card" style={{ width: 500, height: 'auto' }}>
-        <p>
-          Mariposa adalah sebuah novel yang ditulis oleh ahli psikologi Amerika, Rick R. Reed. Novel ini mengisahkan tentang perjalanan hidup seorang remaja bernama Sarah yang memiliki keunikan dalam melihat dunia sekitarnya.
+      <p>
+          Mariposa juga menghabiskan banyak waktu di perpustakaan kecil desa mereka. Meskipun buku-buku seni yang ada terbatas, ia mempelajari teknik-teknik dasar dan menyerap inspirasi dari karya-karya seniman terkenal yang ditemukan dalam buku-buku itu. Ia menyimpan sejuta impian di dalam hatinya, bermimpi suatu hari nanti dapat mengungkapkan keindahan dunianya sendiri melalui lukisan-lukisannya.
         </p>
         <p>
-          Sarah memiliki kemampuan untuk melihat dan berkomunikasi dengan makhluk halus seperti peri, elf, dan hantu. Kehidupan Sarah yang penuh misteri dan keajaiban membuatnya terus dikejar oleh berbagai macam masalah.
-        </p>
-        <p>
-          Dalam perjalanan hidupnya, Sarah bertemu dengan karakter-karakter menarik yang membantunya memahami dunia yang ia lihat. Namun, ia juga harus menghadapi bahaya dan tantangan yang mengancam keberadaannya.
+          Meskipun hidup dalam situasi yang sulit, keluarga Mariposa selalu saling mendukung dan memberi cinta satu sama lain. Mereka mengatasi tantangan dengan semangat yang tinggi dan tak pernah kehilangan harapan. Meski ada saat-saat ketika Mariposa merasa terjebak dalam keterbatasan dan ingin menjelajahi dunia yang lebih besar, cintanya pada keluarga dan desa membuatnya tetap bertahan dan berjuang dengan gigih.
         </p>
         <div style={{ textAlign: 'center', marginTop: '20px' }}>
           <p>-{pageNumber}-</p>
         </div>
         <Button type="primary" onClick={() => navigate('/h3')} style={{ float: 'right' }}>
           Next
+        </Button>
+        <Button type="primary" onClick={() => navigate('/h1')} style={{ float: 'left' }}>
+         back
         </Button>
       </Card>
     </div>

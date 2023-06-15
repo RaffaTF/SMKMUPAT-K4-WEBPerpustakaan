@@ -9,20 +9,27 @@ function HalamanTiga() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <Card className="custom-card" style={{ width: 500, height: 'auto' }}>
+      <h2 style={{ textAlign: 'center' }}>Bagian: 2</h2>
         <p>
-          Mariposa adalah sebuah novel yang ditulis oleh ahli psikologi Amerika, Rick R. Reed. Novel ini mengisahkan tentang perjalanan hidup seorang remaja bernama Sarah yang memiliki keunikan dalam melihat dunia sekitarnya.
+          Setelah kehilangan rumah mereka akibat bencana alam, Mariposa dan keluarganya terpaksa meninggalkan desa kecil mereka dan pindah ke kota besar. Mereka berusaha memulai hidup baru, namun kenyataan kehidupan di kota membawa banyak tantangan bagi mereka.
         </p>
         <p>
-          Sarah memiliki kemampuan untuk melihat dan berkomunikasi dengan makhluk halus seperti peri, elf, dan hantu. Kehidupan Sarah yang penuh misteri dan keajaiban membuatnya terus dikejar oleh berbagai macam masalah.
+          Mariposa, sebagai anak tertua, merasa bertanggung jawab untuk membantu mencari nafkah bagi keluarganya. Dia mencari pekerjaan dengan tekun dan akhirnya mendapatkan pekerjaan sebagai pelayan di sebuah kafe. Meskipun pekerjaannya tidak sesuai dengan mimpinya sebagai seorang pelukis, Mariposa tetap bersemangat dan menjaga api mimpinya tetap menyala.
         </p>
         <p>
-          Dalam perjalanan hidupnya, Sarah bertemu dengan karakter-karakter menarik yang membantunya memahami dunia yang ia lihat. Namun, ia juga harus menghadapi bahaya dan tantangan yang mengancam keberadaannya.
+          Saat bekerja di kafe, Mariposa sering berinteraksi dengan pelanggan yang beragam. Beberapa di antaranya adalah seniman dan penyair yang telah mencapai keberhasilan dalam bidang seni. Mereka berbagi cerita dan pengalaman hidup mereka dengan Mariposa, memberinya harapan dan inspirasi.
+        </p>
+        <p>
+          Suatu hari, ketika kafe sedang mengadakan pameran seni lokal, Mariposa memiliki kesempatan bertemu dengan seorang pelukis terkenal bernama Alejandro Hernandez. Alejandro tertarik pada bakat dan semangat Mariposa dalam seni. Dia menawarkan diri untuk menjadi mentornya dan membantu mengembangkan keterampilan seninya.
         </p>
         <div style={{ textAlign: 'center', marginTop: '20px' }}>
           <p>-{pageNumber}-</p>
         </div>
         <Button type="primary" onClick={() => navigate('/h4')} style={{ float: 'right' }}>
           Next
+        </Button>
+        <Button type="primary" onClick={() => navigate('/h2')} style={{ float: 'left' }}>
+         back
         </Button>
       </Card>
     </div>

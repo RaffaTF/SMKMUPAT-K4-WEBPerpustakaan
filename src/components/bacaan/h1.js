@@ -9,20 +9,24 @@ function HalamanSatu() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <Card className="custom-card" style={{ width: 500, height: 'auto' }}>
+      <h2 style={{ textAlign: 'center' }}>Bagian: 1</h2>
         <p>
-          Mariposa adalah sebuah novel yang ditulis oleh ahli psikologi Amerika, Rick R. Reed. Novel ini mengisahkan tentang perjalanan hidup seorang remaja bernama Sarah yang memiliki keunikan dalam melihat dunia sekitarnya.
+          Mariposa lahir di sebuah desa kecil yang tersembunyi di pedalaman Meksiko. Desa itu dikelilingi oleh hutan lebat dan dikelompokkan oleh perbukitan hijau yang menghiasi lanskapnya. Di antara rumah-rumah beratap jerami yang sederhana, terdapat kehidupan yang penuh dengan kehangatan dan kebersamaan.
         </p>
         <p>
-          Sarah memiliki kemampuan untuk melihat dan berkomunikasi dengan makhluk halus seperti peri, elf, dan hantu. Kehidupan Sarah yang penuh misteri dan keajaiban membuatnya terus dikejar oleh berbagai macam masalah.
+          Mariposa adalah anak kedua dari empat bersaudara. Ayahnya, Miguel, adalah seorang petani yang mencoba mencukupi kebutuhan keluarga dengan bertani di lahan kecil yang dimiliki mereka. Ibunya, Maria, adalah seorang ibu rumah tangga yang penuh kasih sayang dan menjaga keluarga dengan cinta dan perhatian yang tiada henti.
         </p>
         <p>
-          Dalam perjalanan hidupnya, Sarah bertemu dengan karakter-karakter menarik yang membantunya memahami dunia yang ia lihat. Namun, ia juga harus menghadapi bahaya dan tantangan yang mengancam keberadaannya.
+          Sejak kecil, Mariposa telah menunjukkan minat pada seni. Dia senang menggambar di pasir dengan jari-jarinya, menciptakan gambar-gambar yang hidup dan penuh warna. Walaupun tidak ada sumber belajar seni formal di desa mereka, Mariposa belajar dengan memperhatikan dunia di sekitarnya. Dia mengamati sayap kupu-kupu yang berwarna-warni, bunga-bunga yang mekar di taman, dan matahari terbenam yang mengecat langit dengan warna-warna magis. Ia mencoba menangkap keindahan ini melalui goresan-goresan sederhana pada kertas yang ditemukannya.
         </p>
         <div style={{ textAlign: 'center', marginTop: '20px' }}>
           <p>-{pageNumber}-</p>
         </div>
         <Button type="primary" onClick={() => navigate('/h2')} style={{ float: 'right' }}>
           Next
+        </Button>
+        <Button type="primary" onClick={() => navigate('/baca')} style={{ float: 'left' }}>
+         back
         </Button>
       </Card>
     </div>
