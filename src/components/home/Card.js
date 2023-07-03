@@ -13,11 +13,11 @@ function Kartu() {
           <Card>
             <Card.Img
           variant="top"
-          src="https://deepublishstore.com/wp-content/uploads/2021/02/Matematika-Diskret-Teknik_Seng-Hansun-Convert-2-scaled.jpg"
+          src="https://www.dictio.id/uploads/db3342/original/3X/4/0/4073ee47e814ca95dd12cb5cc3bf49a0ada303d5.jpeg"
           style={{ width: '354px', height: '350px' }} />
             <Card.Body>
-              <Card.Title>Education</Card.Title>
-              <Card.Text>Matematika,Bahasa,DLL</Card.Text>
+              <Card.Title>Sejarah</Card.Title>
+              <Card.Text> Cerita sejarah adalah peristiwa yang benar-benar pernah terjadi atau berlangsung di masa lalu</Card.Text>
               <Button onClick={() => b1 ('/edukasi')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
@@ -26,11 +26,11 @@ function Kartu() {
         <Card>
             <Card.Img
           variant="top"
-          src="https://m.media-amazon.com/images/I/51e8gpQV4WL.jpg"
+          src="https://p4.wallpaperbetter.com/wallpaper/124/532/2/summer-fog-woman-home-wallpaper-preview.jpg"
           style={{ width: '354px', height: '350px' }} />
             <Card.Body>
-              <Card.Title>War</Card.Title>
-              <Card.Text>The Last War</Card.Text>
+              <Card.Title>Cerita Rakyat</Card.Title>
+              <Card.Text>Cerita rakyat adalah cerita yang diwariskan dari generasi ke generasi dalam suatu budaya atau masyarakat tertentu</Card.Text>
               <Button onClick={() => b1 ('/war')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
@@ -43,7 +43,7 @@ function Kartu() {
           style={{ width: '354px', height: '350px' }} />
             <Card.Body>
               <Card.Title>Science Fiction</Card.Title>
-              <Card.Text>Red Mars</Card.Text>
+              <Card.Text>adalah cerita-cerita spekulatif yang berhubungan dengan ilmu pengetahuan, teknologi, atau konsep-konsep futuristik.</Card.Text>
               <Button onClick={() => b1 ('/sf')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
@@ -59,7 +59,7 @@ function Kartu() {
           style={{ width: '354px', height: '350px' }} />
             <Card.Body>
               <Card.Title>Advanture</Card.Title>
-              <Card.Text>Treasure Island</Card.Text>
+              <Card.Text>Cerita adventure adalah tentang perjalanan atau pengalaman yang menarik dan penuh dengan tantangan, petualangan, dan eksploras</Card.Text>
               <Button onClick={() => b1 ('/advanture')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
@@ -72,7 +72,7 @@ function Kartu() {
           style={{ width: '354px', height: '350px' }} />
             <Card.Body>
               <Card.Title>Horror</Card.Title>
-              <Card.Text>Bird Box</Card.Text>
+              <Card.Text>Cerita horor ini melibatkan unsur rumah tua yang angker, penemuan objek terlarang, dan hadirnya entitas jahat yang mengancam keselamatan tokoh utama.</Card.Text>
               <Button onClick={() => b1 ('/horor')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
@@ -83,9 +83,9 @@ function Kartu() {
           variant="top"
           src="https://m.media-amazon.com/images/I/81m1s4wIPML.jpg"
           style={{ width: '354px', height: '350px' }} />
-            <Card.Body>
+            <Card.Body style={{ height: '210px'}}>
               <Card.Title>Fantasy</Card.Title>
-              <Card.Text>Harry Potter</Card.Text>
+              <Card.Text>Cerita fantasy menceritakan tentang dunia atau pengalaman yang melibatkan unsur-unsur yang tidak lazim atau magis.</Card.Text>
               <Button onClick={() => b1 ('/fantasy')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>

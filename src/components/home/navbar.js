@@ -33,8 +33,8 @@ function Navi() {
         <Nav.Link href="#action3">Store</Nav.Link>
         <Nav.Link href="/login">Login</Nav.Link>
         <NavDropdown title="Genre" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/edukasi">Edukasi</NavDropdown.Item>
-            <NavDropdown.Item href="/war">War</NavDropdown.Item>
+            <NavDropdown.Item href="/edukasi">Sejarah</NavDropdown.Item>
+            <NavDropdown.Item href="/war">Cerita Rakyat</NavDropdown.Item>
             <NavDropdown.Item href="/sf">Science Fiction</NavDropdown.Item>
             <NavDropdown.Item href="/advanture">Advanture</NavDropdown.Item>
             <NavDropdown.Item href="/horor">Horror</NavDropdown.Item>

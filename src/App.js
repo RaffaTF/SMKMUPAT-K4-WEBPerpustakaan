@@ -10,6 +10,7 @@ import Sf from "./pages/IsiDalamHome/SienceFiction";
 import Adv from "./pages/IsiDalamHome/Advanture";
 import Hrr from "./pages/IsiDalamHome/Horor";
 import Fan from "./pages/IsiDalamHome/Fantasy";
+import Sebelumbaca from "./components/components start/start";
 
 
 
@@ -33,6 +34,8 @@ function App() {
             <Route path="/advanture" element={<Adv/>}/> 
             <Route path="/horor" element={<Hrr/>}/> 
             <Route path="/fantasy" element={<Fan/>}/> 
+            <Route path="/start" element={<Sebelumbaca/>}/> 
+            
           </Routes>
         </Router>
        

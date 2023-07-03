@@ -10,7 +10,7 @@ const No4 = () => {
   return (
     <div className='bg-dark'>
        <img 
-        src='https://images2.alphacoders.com/117/1176021.jpg'
+        src='https://cdn01.x-plarium.com/browser/content/plarium-play/games/VKN/game_header.webp'
         alt='Horor'
         style={{width: '100%' , height:'300px'}}
         />

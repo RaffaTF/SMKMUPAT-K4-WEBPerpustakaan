@@ -4,20 +4,19 @@ import { useNavigate } from 'react-router-dom';
 import { Pagination } from 'antd';
 
 
-const No1 = () => {
-  const b1 = useNavigate()
+const No2 = () => {
+  const b2 = useNavigate()
   
   return (
     <div className='bg-dark'>
        <img 
-        src='https://berkas.lektur.id/kbbi-tesaurus/edukasi.jpg'
+        src='https://moondoggiesmusic.com/wp-content/uploads/2019/05/kumpulan-cerita-rakyat.jpg'
         alt='Horor'
-        style={{width: '100%' , height:'300px'}}
+        style={{width: '100%' , height:'350px'}}
         />
-        <h2 className='text-white'>Edukasi</h2>
-        <hr className='warning'/>
+        <h2 className='text-white'>Cerita Rakyat</h2>
+        <br/>
      <Container>
-       
       <Row>
         <Col>
           <Card>
@@ -28,7 +27,7 @@ const No1 = () => {
             <Card.Body>
               <Card.Title>Education</Card.Title>
               <Card.Text>Matematika,Bahasa,DLL</Card.Text>
-              <Button onClick={() => b1 ('/edukasi')} className='bg-primary '>lebih</Button>
+              <Button onClick={() => b2 ('/edukasi')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -237,4 +236,4 @@ const No1 = () => {
   );
 }
 
-export default No1;
+export default No2;

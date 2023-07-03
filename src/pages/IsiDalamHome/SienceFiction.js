@@ -1,4 +1,4 @@
-import No3 from "../../components/home/Isi-3"
+import No3 from "../../components/home/komponen isi/Isi-3"
 import Navi from "../../components/home/navbar"
 
 const Sf = () => {

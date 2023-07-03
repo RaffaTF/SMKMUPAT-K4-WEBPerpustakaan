@@ -1,10 +1,11 @@
-import No6 from "../../components/home/Isi-6"
+import No6 from "../../components/home/komponen isi/Isi-6"
 import Navi from "../../components/home/navbar"
 
 const Fan = () => {
     return (
         <>
-        <Navi/>
+       
+        <Navi/> 
         <No6/>
         </>
     )
