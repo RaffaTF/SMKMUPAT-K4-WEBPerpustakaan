@@ -9,41 +9,54 @@ function Kartu() {
   return (
      <Container>
       <Row>
-        <Col>
-          <Card>
+      <Col xs={3} style={{ paddingRight: '0.5rem' }}>
+          <Card style={{ width: '17rem' , height: '22rem'}}>
             <Card.Img
           variant="top"
           src="https://www.dictio.id/uploads/db3342/original/3X/4/0/4073ee47e814ca95dd12cb5cc3bf49a0ada303d5.jpeg"
-          style={{ width: '354px', height: '350px' }} />
+          style={{ width: '17rem', height: '15rem' }} />
             <Card.Body>
               <Card.Title>Sejarah</Card.Title>
-              <Card.Text> Cerita sejarah adalah peristiwa yang benar-benar pernah terjadi atau berlangsung di masa lalu</Card.Text>
+              <Card.Text> </Card.Text>
               <Button onClick={() => b1 ('/edukasi')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-        <Card>
+        <Col xs={3} style={{ paddingRight: '0.5rem' }}>
+        <Card style={{ width: '17rem' , height: '22rem'}}>
             <Card.Img
           variant="top"
           src="https://p4.wallpaperbetter.com/wallpaper/124/532/2/summer-fog-woman-home-wallpaper-preview.jpg"
-          style={{ width: '354px', height: '350px' }} />
+          style={{ width: '17rem', height: '15rem' }} />
             <Card.Body>
               <Card.Title>Cerita Rakyat</Card.Title>
-              <Card.Text>Cerita rakyat adalah cerita yang diwariskan dari generasi ke generasi dalam suatu budaya atau masyarakat tertentu</Card.Text>
+              <Card.Text></Card.Text>
               <Button onClick={() => b1 ('/war')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-        <Card>
+        <Col xs={3} style={{ paddingRight: '0.5rem' }}>
+        <Card style={{ width: '17rem' , height: '22rem'}}>
             <Card.Img
           variant="top"
           src="https://m.media-amazon.com/images/I/71K2ywyk16L.jpg"
-          style={{ width: '354px', height: '350px' }} />
+          style={{ width: '17rem', height: '15rem' }} />
             <Card.Body>
               <Card.Title>Science Fiction</Card.Title>
-              <Card.Text>adalah cerita-cerita spekulatif yang berhubungan dengan ilmu pengetahuan, teknologi, atau konsep-konsep futuristik.</Card.Text>
+              <Card.Text></Card.Text>
+              <Button onClick={() => b1 ('/sf')} className='bg-primary '>lebih</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col xs={3} style={{ paddingRight: '0.5rem' }}>
+        <Card style={{ width: '17rem' , height: '22rem'}}>
+            <Card.Img
+          variant="top"
+          src="https://m.media-amazon.com/images/I/71K2ywyk16L.jpg"
+          style={{ width: '17rem', height: '15rem' }} />
+            <Card.Body>
+              <Card.Title>Agama</Card.Title>
+              <Card.Text></Card.Text>
               <Button onClick={() => b1 ('/sf')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
@@ -51,41 +64,54 @@ function Kartu() {
       </Row>
       <br/>
       <Row>
-        <Col>
-        <Card>
+      <Col xs={3} style={{ paddingRight: '0.5rem' }}>
+      <Card style={{ width: '17rem' , height: '22rem'}}>
             <Card.Img
           variant="top"
           src="https://kbimages1-a.akamaihd.net/08bb082e-e9d4-492e-b2ae-ee04233dbc33/1200/1200/False/treasure-island-450.jpg"
-          style={{ width: '354px', height: '350px' }} />
+          style={{ width: '17rem', height: '15rem' }} />
             <Card.Body>
-              <Card.Title>Advanture</Card.Title>
-              <Card.Text>Cerita adventure adalah tentang perjalanan atau pengalaman yang menarik dan penuh dengan tantangan, petualangan, dan eksploras</Card.Text>
+              <Card.Title>Adventure</Card.Title>
+              <Card.Text></Card.Text>
               <Button onClick={() => b1 ('/advanture')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-        <Card>
+        <Col xs={3} style={{ paddingRight: '0.5rem' }}>
+        <Card style={{ width: '17rem' , height: '22rem'}}>
             <Card.Img
           variant="top"
           src="https://upload.wikimedia.org/wikipedia/en/b/b9/Bird_Box_2014_book_cover.jpg"
-          style={{ width: '354px', height: '350px' }} />
+          style={{ width: '17rem', height: '15rem' }} />
             <Card.Body>
               <Card.Title>Horror</Card.Title>
-              <Card.Text>Cerita horor ini melibatkan unsur rumah tua yang angker, penemuan objek terlarang, dan hadirnya entitas jahat yang mengancam keselamatan tokoh utama.</Card.Text>
+              <Card.Text></Card.Text>
               <Button onClick={() => b1 ('/horor')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-        <Card>
+        <Col xs={3} style={{ paddingRight: '0.5rem' }}>
+        <Card style={{ width: '17rem' , height: '22rem'}}>
             <Card.Img
           variant="top"
           src="https://m.media-amazon.com/images/I/81m1s4wIPML.jpg"
-          style={{ width: '354px', height: '350px' }} />
+          style={{ width: '17rem', height: '15rem' }} />
             <Card.Body style={{ height: '210px'}}>
               <Card.Title>Fantasy</Card.Title>
-              <Card.Text>Cerita fantasy menceritakan tentang dunia atau pengalaman yang melibatkan unsur-unsur yang tidak lazim atau magis.</Card.Text>
+              <Card.Text></Card.Text>
+              <Button onClick={() => b1 ('/fantasy')} className='bg-primary '>lebih</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col xs={3} style={{ paddingRight: '0.5rem' }}>
+        <Card style={{ width: '17rem' , height: '22rem'}}>
+            <Card.Img
+          variant="top"
+          src="https://m.media-amazon.com/images/I/81m1s4wIPML.jpg"
+          style={{ width: '17rem', height: '15rem' }} />
+            <Card.Body style={{ height: '210px'}}>
+              <Card.Title>Action</Card.Title>
+              <Card.Text></Card.Text>
               <Button onClick={() => b1 ('/fantasy')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
