@@ -11,6 +11,8 @@ import Adv from "./pages/IsiDalamHome/Advanture";
 import Hrr from "./pages/IsiDalamHome/Horor";
 import Fan from "./pages/IsiDalamHome/Fantasy";
 import Str from "./pages/starters";
+import Agm from "./pages/IsiDalamHome/Agama";
+import Act from "./pages/IsiDalamHome/Aksi";
 
 
 
@@ -35,6 +37,8 @@ function App() {
             <Route path="/horor" element={<Hrr/>}/> 
             <Route path="/fantasy" element={<Fan/>}/> 
             <Route path="/start" element={<Str/>}/> 
+            <Route path="/agama" element={<Agm/>}/> 
+            <Route path="/action" element={<Act/>}/> 
             
           </Routes>
         </Router>

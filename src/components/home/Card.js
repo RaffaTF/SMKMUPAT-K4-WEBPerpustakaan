@@ -8,6 +8,7 @@ function Kartu() {
   const b1 = useNavigate()
   return (
      <Container>
+      <h3>Rekomendasi</h3>
       <Row>
       <Col xs={3} style={{ paddingRight: '0.5rem' }}>
           <Card style={{ width: '17rem' , height: '22rem'}}>
@@ -26,7 +27,7 @@ function Kartu() {
         <Card style={{ width: '17rem' , height: '22rem'}}>
             <Card.Img
           variant="top"
-          src="https://p4.wallpaperbetter.com/wallpaper/124/532/2/summer-fog-woman-home-wallpaper-preview.jpg"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT12a-QMxQG7RunPWOX9PIZ_MdrQy28c2QH_Q&usqp=CAU"
           style={{ width: '17rem', height: '15rem' }} />
             <Card.Body>
               <Card.Title>Cerita Rakyat</Card.Title>
@@ -52,12 +53,12 @@ function Kartu() {
         <Card style={{ width: '17rem' , height: '22rem'}}>
             <Card.Img
           variant="top"
-          src="https://m.media-amazon.com/images/I/71K2ywyk16L.jpg"
+          src="https://storage.nu.or.id/storage/post/16_9/mid/1631847924.jpg"
           style={{ width: '17rem', height: '15rem' }} />
             <Card.Body>
               <Card.Title>Agama</Card.Title>
               <Card.Text></Card.Text>
-              <Button onClick={() => b1 ('/sf')} className='bg-primary '>lebih</Button>
+              <Button onClick={() => b1 ('/agama')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -107,12 +108,12 @@ function Kartu() {
         <Card style={{ width: '17rem' , height: '22rem'}}>
             <Card.Img
           variant="top"
-          src="https://m.media-amazon.com/images/I/81m1s4wIPML.jpg"
-          style={{ width: '17rem', height: '15rem' }} />
+          src="https://cdn.idntimes.com/content-images/duniaku/post/20220510/fox-5732b61ea6d9afd7d7aee7e3a76b9ff4.jpg"
+          style={{ width: '17rem', height: '40rem' }} />
             <Card.Body style={{ height: '210px'}}>
               <Card.Title>Action</Card.Title>
               <Card.Text></Card.Text>
-              <Button onClick={() => b1 ('/fantasy')} className='bg-primary '>lebih</Button>
+              <Button onClick={() => b1 ('/action')} className='bg-primary '>lebih</Button>
             </Card.Body>
           </Card>
         </Col>

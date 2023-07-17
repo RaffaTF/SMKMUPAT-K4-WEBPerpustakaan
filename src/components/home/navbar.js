@@ -24,16 +24,17 @@ function Navi() {
       <Nav className="me-auto my-2 my-lg-0"style={{ maxHeight: '50rem' }}navbarScroll>  
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="#action3">Store</Nav.Link>
             <Nav.Link href="/login">Login</Nav.Link>
             
             <NavDropdown title="Genre" id="basic-nav-dropdown">
             <NavDropdown.Item href="/edukasi">Sejarah</NavDropdown.Item>
             <NavDropdown.Item href="/war">Cerita Rakyat</NavDropdown.Item>
             <NavDropdown.Item href="/sf">Science Fiction</NavDropdown.Item>
+            <NavDropdown.Item href="/agama">Agama</NavDropdown.Item>
             <NavDropdown.Item href="/advanture">Adventure</NavDropdown.Item>
             <NavDropdown.Item href="/horor">Horror</NavDropdown.Item>
             <NavDropdown.Item href="/fantasy">Fantasy</NavDropdown.Item>
+            <NavDropdown.Item href="/action">Action</NavDropdown.Item>
           </NavDropdown> 
       </Nav>
       <Form className="d-flex">
