@@ -12,7 +12,7 @@ import { NavDropdown } from 'react-bootstrap';
 
 function Navi() {
   return (
-    <Navbar bg="light" expand="lg" >
+    <Navbar bg="light" expand="lg" className='navbar' >
   <Col xs={6} md={4}>
   <a href="/"  rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none'}}>
     <Image src={Tamba} rounded style={{ width: '2rem', height: '2rem' }} />E-Libro 

@@ -122,46 +122,60 @@ function Kartu() {
       <hr className="bg-dark" />
       <h3>Popular</h3>
       <Row>
-        <Col>
+      <Col xs={3} style={{ paddingRight: '0.5rem' }}>
         <Card>
             <Card.Img
           variant="top"
           src="https://m.media-amazon.com/images/I/81+jKW2zSEL.jpg"
-          style={{ width: '354px', height: '450px' }} />
+          style={{ width: '17rem', height: '15rem' }} />
             <Card.Body>
-              <Card.Title>The Spartans: An Epic History </Card.Title>
-              <Card.Text>Oleh: Paul Anthony Cartledge</Card.Text>
+              <Card.Title>The Spartans </Card.Title>
+              <Card.Text></Card.Text>
               <Button className='bg-primary '>lebih lengkap</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={3} style={{ paddingRight: '0.5rem' }}>
         <Card>
             <Card.Img
           variant="top"
           src="https://m.media-amazon.com/images/I/91Q5dCjc2KL._AC_UF1000,1000_QL80_.jpg"
-          style={{ width: '354px', height: '450px' }} />
+          style={{ width: '17rem', height: '15rem' }} />
             <Card.Body>
               <Card.Title>The Da Vinci Code</Card.Title>
-              <Card.Text>Oleh: Dan Brown</Card.Text>
-              <Button className='bg-primary '>lebih</Button>
+              <Card.Text></Card.Text>
+              <Button className='bg-primary '>lebih lengkap</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={3} style={{ paddingRight: '0.5rem' }}>
         <Card>
             <Card.Img
           variant="top"
           src="https://m.media-amazon.com/images/I/71jLBXtWJWL._AC_UF1000,1000_QL80_.jpg"
-          style={{ width: '354px', height: '450px' }} />
+          style={{ width: '17rem', height: '15rem' }} />
             <Card.Body>
               <Card.Title>The Lord of the Rings </Card.Title>
-              <Card.Text>Oleh: J.R.R. Tolkien</Card.Text>
-              <Button className='bg-primary '>lebih</Button>
+              <Card.Text></Card.Text>
+              <Button className='bg-primary '>lebih lengkap</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col xs={3} style={{ paddingRight: '0.5rem' }}>
+        <Card>
+            <Card.Img
+          variant="top"
+          src="https://m.media-amazon.com/images/I/71jLBXtWJWL._AC_UF1000,1000_QL80_.jpg"
+          style={{ width: '17rem', height: '15rem' }} />
+            <Card.Body>
+              <Card.Title>The Lord of the Rings </Card.Title>
+              <Card.Text></Card.Text>
+              <Button className='bg-primary '>lebih lengkap</Button>
             </Card.Body>
           </Card>
         </Col>
       </Row> 
+      <br/>
     </Container>
     
   
